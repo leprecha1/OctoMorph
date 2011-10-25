@@ -1,0 +1,19 @@
+##README##
+
+Usage: ./octomorph.pl (-m | -l -f -s) (< MAC_Destiny> | < MACList>) <
+Adapter_Name>
+
+Options:
+
+-m Set only one MAC adress, use with
+e.g.: ./octomorph.pl -m eth0
+
+-l or --list Set a MAC List
+
+-f or --frequency Set a frequency or how many times script will run
+
+-s or --sec Set the range time that de script will run
+
+
+PS: This two last options should be used together:
+# ./octomorph.pl -l -f 10 -s 5 wlan0 ))
